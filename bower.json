@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "devDependencies": {
     "basscss-sass": "~3.0.0",
-    "basscss-fix": "~0.0.14"
+    "basscss-fix": "~0.0.16"
   }
 }
