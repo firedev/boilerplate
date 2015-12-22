@@ -3,6 +3,7 @@
 Check the `example` branch for details. 
 
 [Page Mockup](http://firedev.com/boilerplate/)
+[Source](https://github.com/firedev/boilerplate/blob/example/slim/index.slim)
 
 ## Installation
 
