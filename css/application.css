@@ -2861,6 +2861,10 @@ input[type=range] {
     font-size: 3.84rem;
   }
 }
+img {
+  box-sizing: border-box;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="number"],
@@ -2874,7 +2878,6 @@ input[type="number"], .field_with_errors
 input[type="email"], .field_with_errors
 textarea {
   border-color: #ff4136;
-  background: rgba(255, 220, 0, 0.5);
 }
 
 .btn, .button, button {
@@ -2927,6 +2930,33 @@ textarea {
 }
 .vertical-rounded > *:last-child {
   border-radius: 0 0 3px 3px;
+}
+
+.gutter, .gutter1 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+.gutter .col,
+.gutter .sm-col,
+.gutter .md-col,
+.gutter .lg-col, .gutter1 .col,
+.gutter1 .sm-col,
+.gutter1 .md-col,
+.gutter1 .lg-col {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.gutter2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.gutter2 .col,
+.gutter2 .sm-col,
+.gutter2 .md-col,
+.gutter2 .lg-col {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .top-100 {
@@ -3127,6 +3157,10 @@ textarea {
 
 .mn4 {
   margin: -8rem;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=application.css.map */
